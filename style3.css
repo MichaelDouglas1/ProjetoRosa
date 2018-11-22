@@ -1,0 +1,49 @@
+*{
+	margin: 0px;
+	padding: 0px;
+        background-color: #F0F8FF;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#panel{
+	background-color: #fff;
+	width: 650px;
+	height: auto;
+	padding: 10px;
+	box-shadow: #333 0px 0px 5px;
+	border-radius: 2px;
+}
+
+#panel:hover{background-color: #ffc107;}
+
+.titulo{
+	font-size: 25px;
+	color: #e60000;
+        font-style: italic;
+}
+
+.titulo:hover{
+	text-decoration: none;
+}
+
+
+.descricao{
+	font-size: 18px;
+	color: #696969;
+}
+
+.foto{
+	width: 630px;
+	height: 400px;
+}
+
+.foto-comment{
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+}
