@@ -1,0 +1,37 @@
+create database projeto_1;
+
+use projeto_1;
+
+
+create table usuarios (
+	
+IdUsuario int not null primary key auto_increment,
+
+	NomeUsuario varchar (45),
+
+	Email varchar (50) unique,
+
+	Data_Nascimento date,
+    
+	senha int(6)
+    );
+   
+   
+
+
+create table Post(
+
+	IdPost INT primary key auto_increment,
+	Titulo varchar (200),
+	Descricao varchar(500),
+	Imagem varchar (200),
+	Data varchar (200),
+
+	Hora varchar (200),
+	IdUsu_Post int not null
+    );
+
+    
+alter table Post
+add foreign key (IdUsu_Post)
+references usuarios (IdUsuario);
